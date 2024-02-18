@@ -62,7 +62,7 @@ p{
     border: 1px solid var(--branding-color);
 }
 .project-description{
-    padding: 120px 60px;
+    padding: 100px 50px;
 }
 @media (max-width: 960px){
     .project-description{
