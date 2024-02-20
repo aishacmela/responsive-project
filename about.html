@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -15,29 +15,37 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Ayisha's Work -frontend developer based in Souht Africa">
+    <title>About Ayisha - Ayisha Seimela</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
-<nav class="d-flex justify-content-between">
-
-    <img src="image/logo.png" class="d-none d-md-block" alt="">
-    <img src="image/logo-small.jpg" class="logo d-block d-md-none " alt="">
-    <ul>
-        <li>
-            <a href="/"> Home</a>
-        </li>
-        <li class="active">
-            <a href="/about.html"> About</a>
-        </li>
-        <li>
-            <a href="/work.html"> Work</a>
-        </li>
-        <li>
-            <a href="/contact.html"> Contact</a>
-        </li>
-    </ul>
+        <a class="navbar-brand" href="/">
+            <img src="image/logo.png" class="logo img-fluid" alt="Ayisha's logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/" title="Homepage">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/about.html" title="About Ayisha">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/work.html" title="Ayisha's work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html" title="contact Ayisha">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
-</div>
 
 
     <div class="content-container container">
@@ -46,16 +54,47 @@
                 <div class="content">
     <h1 class="mb-4"> Hi I am Ayisha Seimela</h1>
     <h2 class="mb-4">Frontend Developer Based in Polokwane</h2>
-    <p class="mb-5">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different
-    exercises, and everything is well explained, homework and deadlines are good for keep focus</p>
-    <a href="#" class="btn btn-branding">See my projects</a>
+    <p class="mb-5">I am a frontend developer with a strong  skill set in HTML, CSS, Javascript, API intergration, Github, Web hosting, Responsive web design, Figma and SEO optimization. I have a passion for crreting appealing and userfriendly interfaces, and Iam constantly learning and adapting to stay up to date with the latest web development trends. i have a keen eye for detai; and a knack for problem-solving, and i am excited to showcase my work and contribute to innovative and impactful projects</p>
+    <a href="/work.html" class="btn btn-branding">See my projects</a>
     </div>
 </div>
 <div class="col-lg-6">
 
-    <img src="image/image 38.png" class="img-fluid" alt >
+    <img src="image/ayisha.jpg" class="img-fluid" alt="Ayisha" >
     </div>
         </div>
+</div>
+<div class="container">
+<footer>
+
+    <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div>
+            <h3>Work Inquiry</h4>
+                <p class="text-muted">let's work together</p>
+        </div>
+        <div>
+            <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
+        </div>
+    </div>
+
+    <a href="mailto:aishacmela@gmail.com" class="email-link d-flex justify-content-center mb-5">aishacmela@gmail.com</a>
+    <div class="social-links d-flex justify-content-center mb-5">
+        <a href="https://www.instagram.com/aishacmela" target="_blank" title="Instagram profile">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.github.com/aishacmela" target="_blank" title="Github profile">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ayisha-seimela-88a685228/" target="_blank" title="linkedin profile">
+            <i class="fab fa-linkedin></i>
+        </a>
+    </div>
+    <p class="text-center mt-5">This project was coded by <a href="https://github.com/aishacmela/"
+            target="_blank">Ayisha</a> and it is
+        <a href="https://github.com/aishacmela/responsive-project" target="_blank">open-sourced </a>
+    </p>
+
+</footer>
 </div>
 </body>
 </html>
